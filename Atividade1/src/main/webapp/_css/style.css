@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.curriculo {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #cde0f0;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+header .info {
+  max-width: 70%;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+header p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+header a {
+  color: #2980b9;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  border-left: 5px solid #74b9ff;
+  padding-left: 10px;
+}
+
+section p,
+section ul {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
